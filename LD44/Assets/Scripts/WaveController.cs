@@ -116,10 +116,6 @@ public class WaveController : MonoBehaviour {
         }
     }
 
-    private void SpawnZombieBoss() {
-
-    }
-
     public bool IsWaveOver() {
         return _enemiesSpawned == _enemiesToSpawn && gameObject.transform.childCount <= 1;
     }
